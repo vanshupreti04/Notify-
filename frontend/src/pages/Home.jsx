@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link for navigation
 import logo from "../assets/logo.png";
 import Hero from "../components/Hero";
 import { BentoGridSecondDemo } from "../blocks/BentoGrid/BentoGridSecondDemo";
@@ -6,7 +7,7 @@ import MovingText from "../blocks/Moving-Text/MovingText";
 import UseCase from "../components/UseCase";
 import Productivity from "../components/Productivity";
 import Testimonial from "../components/Testimonial";
-import Footer from "../components/Footer"; // ✅ Import Footer Component
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -19,24 +20,33 @@ const Home = () => {
           <h1 className="text-2xl font-bold text-white">UNINOTE</h1>
         </div>
 
-        {/* Centered Navigation Links */}
+        {/* Centered Navigation Links with Routes */}
         <div className="relative flex space-x-6">
-          {["Home", "Features", "Docs", "About"].map((item, index) => (
+          {[
+            { name: "Home", path: "/" },
+            { name: "Features", path: "/features" },
+            { name: "Docs", path: "/docs" },
+            { name: "About", path: "/about" }
+          ].map((item, index) => (
             <div key={index} className="relative group overflow-hidden rounded-2xl">
               <span className="absolute inset-0 w-full h-full bg-white transform scale-y-0 transition-all duration-300 ease-in-out group-hover:scale-y-100 rounded-2xl"></span>
-              <a
-                href="#"
+              <Link
+                to={item.path} // Use Link to navigate to the route
                 className="relative z-10 block px-6 py-2 text-[#AAAAAA] font-medium text-lg rounded-2xl transition-all duration-300 ease-in-out group-hover:text-black"
               >
-                {item}
-              </a>
+                {item.name}
+              </Link>
             </div>
           ))}
         </div>
 
-        <button className="px-6 py-2 text-lg font-medium text-white border-2 border-[#AC6AFF] rounded-lg bg-transparent transition-all duration-300 hover:text-[#AC6AFF]">
+        {/* Login Button with Routing */}
+        <Link
+          to="/login"
+          className="px-6 py-2 text-lg font-medium text-white border-2 border-[#AC6AFF] rounded-lg bg-transparent transition-all duration-300 hover:text-[#AC6AFF]"
+        >
           Login
-        </button>
+        </Link>
       </nav>
 
       {/* Hero Section */}
