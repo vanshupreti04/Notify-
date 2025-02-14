@@ -26,7 +26,7 @@ An open-source Notion-like application with powerful features such as note-takin
 ### Backend
 - **Node.js + Express**
 - **MongoDB**
-- **WebSockets**
+- **WebSockets + Tiptap**
 
 ## Getting Started
 
