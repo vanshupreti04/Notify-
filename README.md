@@ -39,7 +39,7 @@ Ensure you have the following installed:
 
 #### 1️⃣ Clone the repository:
 ```sh
- git clone https://github.com/vanshupreti04/Notify-.git
+ git clone https://github.com/vanshupreti04/Notify.git
 ```
 
 #### 2️⃣ Install dependencies:
@@ -102,7 +102,7 @@ module.exports = {
 We welcome contributions! Feel free to open issues and pull requests.
 
 ## Social Links
-- 🌍 [GitHub Repository](https://github.com/vanshupreti04/Notify-.git)
+- 🌍 [GitHub Repository](https://github.com/vanshupreti04/Notify.git)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/vanshupreti)
 
 ## License
