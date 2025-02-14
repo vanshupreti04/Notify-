@@ -39,8 +39,7 @@ Ensure you have the following installed:
 
 #### 1️⃣ Clone the repository:
 ```sh
- git clone https://github.com/your-repo/notify.git
- cd notify
+ git clone https://github.com/vanshupreti04/Notify-.git
 ```
 
 #### 2️⃣ Install dependencies:
@@ -59,6 +58,12 @@ JWT_SECRET=your_secret_key
 ```
 
 #### 4️⃣ Run the development servers:
+
+**Frontend (React + Vite)**
+```sh
+cd frontend
+npm run dev
+```
 
 **Backend (Express + WebSockets)**
 ```sh
@@ -97,8 +102,8 @@ module.exports = {
 We welcome contributions! Feel free to open issues and pull requests.
 
 ## Social Links
-- 🌍 [GitHub Repository](https://github.com/your-repo/notify)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)
+- 🌍 [GitHub Repository](https://github.com/vanshupreti04/Notify-.git)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/vanshupreti)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
