@@ -60,12 +60,6 @@ JWT_SECRET=your_secret_key
 
 #### 4️⃣ Run the development servers:
 
-**Frontend (React + Vite)**
-```sh
-cd frontend
-npm run dev
-```
-
 **Backend (Express + WebSockets)**
 ```sh
 npm start
