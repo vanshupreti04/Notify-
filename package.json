@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@tabler/icons-react": "^3.30.0",
+    "clsx": "^2.1.1",
+    "gsap": "^3.12.7",
+    "motion": "^12.4.3",
+    "tailwind-merge": "^3.0.1"
+  }
+}
