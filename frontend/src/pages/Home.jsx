@@ -17,7 +17,7 @@ const Home = () => {
         {/* Left Side: Logo & Project Name */}
         <div className="flex items-center space-x-4">
           <img src={logo} alt="Uninote Logo" className="h-12 w-12" />
-          <h1 className="text-2xl font-bold text-white">UNINOTE</h1>
+          <h1 className="text-2xl font-bold text-white">NoTiFy</h1>
         </div>
 
         {/* Centered Navigation Links with Routes */}

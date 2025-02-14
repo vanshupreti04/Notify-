@@ -12,8 +12,8 @@ const Footer = () => {
             {/* Logo & Socials */}
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <img src={logo} alt="Uninote Logo" className="h-12 w-auto" />
-                <span className="text-xl font-bold text-white mb-3">UNINOTE</span>
+                <img src={logo} alt="NoTiFy Logo" className="h-12 w-auto" />
+                <span className="text-xl font-bold text-white mb-3">NoTiFy</span>
               </div>
               
               <div className="flex space-x-4 mt-12">
@@ -35,7 +35,7 @@ const Footer = () => {
                   <a href="#" className="hover:underline mt-2"> Cookie settings</a>
                 </p>
                 
-                <p className="text-sm text-gray-500 mt-2">© 2025 Uninote Labs, Inc.</p>
+                <p className="text-sm text-gray-500 mt-2">© 2025 NoTiFy Labs, Inc.</p>
               </div>
             </div>
 
@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-5">Uninote for</h3>
+              <h3 className="font-semibold mb-5">NoTiFy for</h3>
               <ul className="space-y-2 text-gray-600">
                 <li><a href="#" className="hover:underline">Enterprise</a></li>
                 <li><a href="#" className="hover:underline">Small business</a></li>

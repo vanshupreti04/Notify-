@@ -57,7 +57,7 @@ const Hero = () => {
                 backgroundColor: "#111"
               }}
             >
-              <p style={{ fontWeight: 900, fontSize: "3rem", color: "white" }}>Gaand Marao</p>
+              <p style={{ fontWeight: 900, fontSize: "3rem", color: "white" }}>Hello</p>
             </div>
           }
           gridSize={12}
